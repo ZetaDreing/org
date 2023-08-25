@@ -1,0 +1,14 @@
+.bt{
+    display: flex;
+    justify-content: flex-start;
+    padding: 2.5rem 4rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    background-color: var(--azulMarino);
+    color: var(--white);
+    border: none;
+}
+.bt:hover{
+    cursor: pointer;
+    color: var(--hover);
+}

@@ -1,0 +1,25 @@
+.my_org-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8.4rem;
+}
+
+.my_org-content h2{
+    display: inline-block;
+    padding-bottom: 3rem;
+    font-size: 4rem;
+    border-bottom: var(--azulMarino) solid 0.4rem;
+    color: var(--azulMarino);
+    font-family: 'Prata', serif;
+    font-weight: 400;
+}
+.add_icon-conteiner{
+align-items: center;
+position: absolute;
+right: 10rem;
+}
+
+.add_icon-conteiner img:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 2.6rem;
+}
+.conteiner label{
+    margin-bottom: 0.8rem;
+}
+.conteiner select{
+    font-size: 1.6rem;
+    padding: 3rem 2rem;
+    border: none;
+    outline-color: var(--azulMarino);
+    background-color: var(--white);
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.06);
+}
