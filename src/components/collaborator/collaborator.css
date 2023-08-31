@@ -1,0 +1,38 @@
+.collaborator-conteiner{
+   width: 20%;
+    background-color: var(--white);
+    margin: 1.4rem;
+    padding-top: 3.2rem;
+    padding-bottom: 2.7rem;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.08);
+
+}
+.collaborator_img{
+    width: 10rem;
+    border-radius: 10rem;
+
+}
+.collaborator_name{
+    color: var(--azulMarino);
+    font-size: 1.8rem;
+    width: 600;
+    margin-bottom: 0;
+}
+.collaborator_job{
+    margin-top: .9rem;
+    color: var(--oscuro);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.collaborator_color{
+    position: absolute;
+    background-color: #57C278;
+    height: 37%;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    border-radius: 10px 10px 0px 0px;
+}

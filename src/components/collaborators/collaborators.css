@@ -1,0 +1,17 @@
+.collaborators-conteiner{
+    text-align: center;
+background-color: #D9F7E9;
+}
+.collaborators-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.collaborators_title{
+    display: inline-block;
+    font-size: 3.2rem;
+    font-weight: 400;
+    color: var(--oscuro);
+    padding-bottom: 1.5rem;
+    border-bottom: #57C278 solid 0.4rem;
+}
