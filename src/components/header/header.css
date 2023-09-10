@@ -1,3 +1,8 @@
 .header img{
-    width: 100%;
+    width: 150%;
+}
+@media (min-width: 768px) {
+    .header img{
+        width: 100%;
+    }
 }

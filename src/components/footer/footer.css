@@ -1,0 +1,50 @@
+.footer-conteiner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: center;
+    background-color: var(--azulMarino);
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+@media (min-width: 768px) {
+    .footer-conteiner{
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+}
+.networks_icons-conteiner{
+    color: var(--white);
+    font-size: 3rem;
+}
+.network_icon{
+    margin: 0 1rem;
+}
+.logo_icon{
+    position: relative;
+    left: 4rem;
+    grid-column: 2;
+    grid-row: 2;
+}
+.network_icon:hover{
+    cursor: pointer;
+}
+.credits{
+    color: var(--white);
+    grid-column: 2;
+    font-size: 1.2rem;
+}
+.ellipse{
+    display: flex;
+    grid-column: 3;
+}
+@media (min-width: 768px) {
+    .ellipse{
+        position: relative;
+        top: 2rem;
+        left: 2rem;
+    }
+}

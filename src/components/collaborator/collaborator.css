@@ -1,18 +1,40 @@
 .collaborator-conteiner{
-   width: 20%;
+    position: relative;
     background-color: var(--white);
     margin: 1.4rem;
     padding-top: 3.2rem;
     padding-bottom: 2.7rem;
-    position: relative;
     z-index: 1;
     border-radius: 10px;
     box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.08);
-
+    min-width: 40%;
+}
+@media (min-width: 768px ) {
+    .collaborator-conteiner{
+        width: 20%;
+        min-width: 20%;
+    }
+}
+.close_icon{
+    position: absolute;
+    right: -0.5rem;
+    top: -0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: all;
+    transition-duration: 300ms;
+}
+.close_icon:hover{
+    cursor: pointer;
+    color: red;
+    transition: all;
+    transition-duration: 300ms;
 }
 .collaborator_img{
     width: 10rem;
-    border-radius: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
 
 }
 .collaborator_name{

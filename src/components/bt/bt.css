@@ -1,14 +1,27 @@
 .bt{
     display: flex;
-    justify-content: flex-start;
+   justify-content: center;
     padding: 2.5rem 4rem;
-    font-size: 2rem;
     border-radius: 1rem;
+    font-size: 2rem;
     background-color: var(--azulMarino);
     color: var(--white);
+    width: 100%;
     border: none;
+    transition: all;
+    transition-duration: 300ms;
+
+}
+@media (min-width: 768px) {
+    .bt{
+        width: auto;
+        justify-content: flex-start;
+      
+    }
 }
 .bt:hover{
     cursor: pointer;
     color: var(--hover);
+    transition: all;
+    transition-duration: 300ms;
 }
